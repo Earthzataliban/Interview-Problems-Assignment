@@ -1,0 +1,8 @@
+(Python specific) In Python, what is the difference between else and finally in exception handling?
+
+else: จะทำงานได้ก็ต่อเมื่อไม่มีข้อผิดพลาด (exception) เกิดขึ้นหรือโปรแกรมนั้นทำงานทำเร็จ 
+finally: จะทำงานตลอดทุกครั้งเมื่อจบการทำงาน ไม่ว่าจะมีข้อผิดพลาดหรือไม่ก็ตาม
+
+else: If there is no exception then this block will be executed
+finally: Finally block always gets executed either exception is generated or not
+
